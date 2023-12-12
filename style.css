@@ -1,0 +1,36 @@
+.cocktail-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Style each row (list item) */
+.cocktail-item {
+  display: flex; /* Arrange items in a row */
+  margin-bottom: 10px; /* Adjust as needed */
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+}
+
+/* Define styles for the name column */
+.name-column {
+  flex: 1;
+  padding-right: 10px; /* Space between columns */
+}
+
+/* Define styles for the image column */
+.image-column {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start; /* Align images to the right within the column */
+  align-items: left; /* move to left of column*/
+}
+/* Style the images within the image column */
+.drink-image {
+  max-width: 100%; /* Ensure images don't exceed column width */
+  height: auto;
+  width: 150px;
+}
